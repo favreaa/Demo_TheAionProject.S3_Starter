@@ -30,15 +30,15 @@ namespace TheAionProject
                         { ' ', TravelerAction.None }
                     }
         };
-
+         
         public static Menu InitializeMission = new Menu()
         {
             MenuName = "InitializeMission",
-            MenuTitle = "Initialize Mission",
+            MenuTitle = "Initialize Mission", 
             MenuChoices = new Dictionary<char, TravelerAction>()
-                {
-                    { '1', TravelerAction.Exit }
-                }
+                {  
+                    { '1', TravelerAction.Exit }  
+                }   
         };
 
         public static Menu MainMenu = new Menu()
@@ -48,14 +48,14 @@ namespace TheAionProject
             MenuChoices = new Dictionary<char, TravelerAction>()
                 {
                     { '1', TravelerAction.TravelerInfo },
-                    { '2', TravelerAction.LookAround },
+                    { '2', TravelerAction.LookAround }, 
                     { '3', TravelerAction.LookAt },
                     { '4', TravelerAction.PickUp },
-                    { '5', TravelerAction.PutDown },
+                    { '5', TravelerAction.PutDown }, 
                     { '6', TravelerAction.Inventory },
-                    { '7', TravelerAction.Travel },
-                    { '8', TravelerAction.TravelerLocationsVisited },
-                    { '9', TravelerAction.AdminMenu },
+                    { '7', TravelerAction.Travel }, 
+                    { '8', TravelerAction.TravelerLocationsVisited }, 
+                    { '9', TravelerAction.AdminMenu }, 
                     { '0', TravelerAction.Exit }
                 }
         };
